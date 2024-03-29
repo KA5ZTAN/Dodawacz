@@ -24,9 +24,9 @@ public class Main {
         boolean czyTylkoLitery = name.matches("[a-zA-Z]+");
         if (!czyTylkoLitery) {
             if (name.equals("R2-D2")) {
-                System.out.println("Niech moc będzie z Tobą Artoo!");
+                System.out.println("Niech moc będzie z Tobą R2!");
             } else {
-                System.out.println("Czy jesteś robotem ze Star Wars?!");
+                System.out.println("Czy jesteś droidem ze Star Wars?!");
             }
         }
         System.out.println("Cześć " + name + ", Twoje imię składa się z " + name.length() + " znaków");
@@ -57,7 +57,7 @@ public class Main {
             }
         }
         if (number == null) {
-            System.out.println("Nie podałeś liczby, nie bawię się z Tobą, bye!");
+            System.out.println("Nie podałeś liczby, nie bawię się z Tobą, Dowidzenia!");
             System.exit(0);
         }
         return number;
